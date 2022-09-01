@@ -4,11 +4,9 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 public class StringCompiler {
 
-    private Map<String, Short> converterJsonMap;
     public TableData mainTable = new TableData();
 
     public void addTextLine(String key, String text) {
