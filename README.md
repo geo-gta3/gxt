@@ -16,7 +16,7 @@ If you are interested you can read more about GXT format at: https://gtamods.com
 class GXTDemo {
 
     public static void main(String[] args) throws IOException {
-        // Parsing GXT file is easy. Just use GXTParser class's parse method.
+        // Parsing GXT file is easy. Just use GXTParser class' parse method.
         GXT gxt = GXTParser.parse(Paths.get("input.gxt"));
 
         // Creating *.gxt file from GXT class is straightforward. 
