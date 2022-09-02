@@ -10,4 +10,4 @@ The Xbox version of Vice City uses this format as well.
 If you are interested you can read more about GXT format at: https://gtamods.com/wiki/GXT
 
 ## Format Illustrated
-![illustrated format](gxt illustrated.png)
+![illustrated format](https://github.com/geo-gta3/gxt/blob/main/gxt%20illustrated.png?raw=true)
