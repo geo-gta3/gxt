@@ -8,3 +8,6 @@ There is also no special treatment of characters starting with 0x21 in TDAT entr
 The Xbox version of Vice City uses this format as well.
 
 If you are interested you can read more about GXT format at: https://gtamods.com/wiki/GXT
+
+## Format Illustrated
+![illustrated format](gxt illustrated.png)
