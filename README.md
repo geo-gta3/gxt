@@ -1,5 +1,4 @@
-# GXT (for GTA III) 
-#### Beware: This code requires abstraction and optimization!
+# GXT (for GTA III)
 
 This is a Java library that provides class for working with *.gxt files (work only with GTA III, for now).
 
@@ -16,12 +15,11 @@ If you are interested you can read more about GXT format at: https://gtamods.com
 class GXTDemo {
 
     public static void main(String[] args) throws IOException {
-        // Parsing GXT file is easy. Just use GXTParser class' parse method.
-        GXT gxt = GXTParser.parse(Paths.get("input.gxt"));
-
-        // Creating *.gxt file from GXT class is straightforward. 
-        // Call the "writeTo" method and that's it.  
-        gxt.writeTo(Paths.get("output.gxt"));
+        GXT gxt = GXT.from(Paths.get("american.gxt"));
+        Map<String, String> map = gxt.toMap(); // Convert to map for better usage
+        map.put("DUDE_1", "Mario"); // Update map entries
+        gxt = GXT.from(map); // Convert map back to GXT
+        gxt.writeTo(Paths.get("output.gxt")); // Write GXT to file
     }
 
 }
