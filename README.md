@@ -27,28 +27,26 @@ class GXTDemo {
 
 ## How to Access the Package
 
-Just include in your Maven project following repository (note the access token that is required) and dependency
-information:
+Just include in your Maven project the following dependency:
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-    <!-- Somewhere in your pom.xml -->
-    <dependencies>
-        <dependency>
-            <groupId>ge.vakho</groupId>
-            <artifactId>gxt</artifactId>
-            <version>1.0.1</version>
-        </dependency>
-    </dependencies>
-    <repositories>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://public: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@maven.pkg.github.com/geo-gta3/gxt</url>
-        </repository>
-    </repositories>
-</project>
+<!-- GXT -->
+<dependency>
+    <groupId>ge.vakho</groupId>
+    <artifactId>gxt</artifactId>
+    <version>1.0.1</version>
+</dependency>
+```
+
+Don't forget to include the repository information too. The package itself is not on Maven central repository.
+
+```xml
+<!-- Repository of GXT -->
+<repository>
+    <id>github</id>
+    <name>GitHub Packages</name>
+    <url>https://public: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@maven.pkg.github.com/geo-gta3/gxt</url>
+</repository>
 ```
 
 ## Format Illustrated
