@@ -15,11 +15,11 @@ If you are interested you can read more about GXT format at: https://gtamods.com
 class GXTDemo {
 
     public static void main(String[] args) throws IOException {
-        GXT gxt = GXT.from(Paths.get("american.gxt"));
-        Map<String, String> map = gxt.toMap(); // Convert to map for better usage
-        map.put("DUDE_1", "Mario"); // Update map entries
-        gxt = GXT.from(map); // Convert map back to GXT
-        gxt.writeTo(Paths.get("output.gxt")); // Write GXT to file
+        GXT gxt = GXT.from(Paths.get("input.gxt"));
+        Map<String, String> map = gxt.toMap();  // (1) Convert to map for better usage
+        map.put("DUDE_1", "Mario");             // (2) Update map entries
+        gxt = GXT.from(map);                    // (3) Convert map back to GXT
+        gxt.writeTo(Paths.get("output.gxt"));   // (4) Write GXT to file
     }
 
 }
