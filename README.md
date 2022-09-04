@@ -1,6 +1,6 @@
 # GXT (for GTA III)
 
-This is a Java library that provides class for working with *.gxt files (work only with GTA III, for now).
+This is a Java library that provides class for working with *.gxt files (works only with GTA III, for now).
 
 GTA III's GXT files are identical to those of GTA 2, except that they do not have headers – they start with the TKEY
 block instead. There is also no special treatment of characters starting with 0x21 in TDAT entries.
