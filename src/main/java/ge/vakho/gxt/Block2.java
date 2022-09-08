@@ -30,7 +30,7 @@ public class Block2 {
 
         // Read TDAT entries
         block2.tdatEntries = new ArrayList<>();
-        for (TKEY tkey : block1.getTkeyEntries()) {
+        for (TKEY tkey : block1.tkeyEntries) {
 
             // Calculate and goto (absolute) offset position
             long absoluteOffset = block1.tkeyBlockSize + tkey.tdatEntryOffset + 16;

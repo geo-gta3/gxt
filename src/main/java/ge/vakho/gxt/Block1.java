@@ -49,7 +49,7 @@ public class Block1 {
 
         // Iterate over TKEY entries
         block1.tkeyEntries = new ArrayList<>();
-        for (long _ignore = 0; _ignore < block1.getTkeyBlockSize() / 12; _ignore++) {
+        for (long _ignore = 0; _ignore < block1.tkeyBlockSize / 12; _ignore++) {
             block1.tkeyEntries.add(TKEY.from(raf));
         }
         return block1;
