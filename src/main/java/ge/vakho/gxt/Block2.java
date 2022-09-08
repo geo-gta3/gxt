@@ -9,6 +9,11 @@ import java.util.*;
 
 import static ge.vakho.gxt.util.BufferUtils.readBytes;
 
+/**
+ * TDAT Block (also knows as Block 2) consists of the block information and {@link TDAT} entries.
+ *
+ * @see TDAT
+ */
 public class Block2 {
 
     protected final byte[] tdatBlockName = new byte[]{'T', 'D', 'A', 'T'};

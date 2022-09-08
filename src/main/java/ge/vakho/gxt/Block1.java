@@ -9,6 +9,13 @@ import java.util.*;
 
 import static ge.vakho.gxt.util.BufferUtils.readBytes;
 
+/**
+ * TKEY Block (also knows as Block 1) consists of the block information and {@link TKEY} entries.
+ *
+ * <p>All {@link TKEY} entries are sorted in alphabetical order.</p>
+ *
+ * @see TKEY
+ */
 public class Block1 {
 
     protected final byte[] tkeyBlockName = new byte[]{'T', 'K', 'E', 'Y'};

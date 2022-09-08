@@ -9,6 +9,13 @@ import java.util.Objects;
 
 import static ge.vakho.gxt.util.BufferUtils.readBytes;
 
+/**
+ * TDAT contains the value string that is an array of wide characters (2 bytes per character) to be displayed in the
+ * game.
+ *
+ * <p>The array is terminated by a null character (0x0000). The location of the entry in absolute term is TDAT
+ * entry offset + size of TKEY block + 22.</p>
+ */
 public class TDAT {
 
     protected String text;

@@ -10,6 +10,24 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.TreeMap;
 
+/**
+ * GXT consists of two blocks: {@link Block1} and {@link Block2} blocks. This class is responsible for parsing the GXT
+ * information from a *.gxt file, using one of the overridden {@link #from(File) from} methods.
+ *
+ * <p>This class also provides {@link #toMap() toMap} method to make working with GXT data easy. When you are done working
+ * with the data, you may use {@link #from(Map) from} method which accepts a {@link Map map} object as an argument and
+ * returns GXT object.</p>
+ *
+ * <p>To write GXT data to some file, or stream, use overridden {@link #writeTo(File) writeTo} methods.</p>
+ *
+ * <p>GTA III's GXT files are identical to those of GTA 2, except that they do not have headers – they start with the
+ * TKEY block instead. There is also no special treatment of characters starting with 0x21 in TDAT entries.</p>
+ *
+ * <p>The Xbox version of Vice City uses this format as well.</p>
+ *
+ * @see Block1
+ * @see Block2
+ */
 public class GXT {
 
     protected Block1 block1;

@@ -9,6 +9,13 @@ import java.util.Objects;
 
 import static ge.vakho.gxt.util.BufferUtils.readBytes;
 
+/**
+ * TKEY block contains {@link TDAT} entry offset and its name.
+ *
+ * <p>TKEY block's size is always 12 (0xC) bytes.</p>
+ *
+ * @see TDAT
+ */
 public class TKEY implements Comparable<TKEY> {
 
     protected long tdatEntryOffset;
