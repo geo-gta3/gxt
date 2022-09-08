@@ -34,7 +34,7 @@ Just include in your Maven project the following dependency:
 <dependency>
     <groupId>ge.vakho</groupId>
     <artifactId>gxt</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
