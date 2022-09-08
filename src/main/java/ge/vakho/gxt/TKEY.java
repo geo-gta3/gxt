@@ -12,7 +12,6 @@ import static ge.vakho.gxt.util.BufferUtils.readBytes;
 public class TKEY implements Comparable<TKEY> {
 
     protected long tdatEntryOffset;
-
     protected String tdatEntryName;
 
     public TKEY() {
