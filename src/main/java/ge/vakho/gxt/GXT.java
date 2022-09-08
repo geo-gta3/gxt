@@ -34,8 +34,8 @@ public class GXT {
 
     public static GXT from(Map<String, String> map) {
         GXT gxt = new GXT();
-        gxt.block1 = Block1.from(map);                // Block 1 (TKEY)
-        gxt.block2 = Block2.from(map.values());    // Block 2 (TDAT)
+        gxt.block1 = Block1.from(map);          // Block 1 (TKEY)
+        gxt.block2 = Block2.from(map.values()); // Block 2 (TDAT)
         return gxt;
     }
 
