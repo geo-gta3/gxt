@@ -45,7 +45,7 @@ Don't forget to include the repository information too. The package itself is no
 <repository>
     <id>github</id>
     <name>GitHub Packages</name>
-    <url>https://public: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@maven.pkg.github.com/geo-gta3/gxt</url>
+    <url>https://public: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@maven.pkg.github.com/geo-gta3/gxt</url>
 </repository>
 ```
 
