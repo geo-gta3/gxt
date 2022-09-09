@@ -27,27 +27,10 @@ class GXTDemo {
 
 ## How to Access the Package
 
-Just include in your Maven project the following dependency:
+The library is not yet published on some public repository. So, the only way is to download the JAR file and do the
+installation by hand.
 
-```xml
-<!-- GXT -->
-<dependency>
-    <groupId>ge.vakho</groupId>
-    <artifactId>gxt</artifactId>
-    <version>1.0.2</version>
-</dependency>
-```
-
-Don't forget to include the repository information too. The package itself is not on Maven central repository.
-
-```xml
-<!-- Repository of GXT -->
-<repository>
-    <id>github</id>
-    <name>GitHub Packages</name>
-    <url>https://public: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@maven.pkg.github.com/geo-gta3/gxt</url>
-</repository>
-```
+More info can be found here: https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html
 
 ## Format Illustrated
 
