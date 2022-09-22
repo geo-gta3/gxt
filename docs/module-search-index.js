@@ -1,1 +1,1 @@
-moduleSearchIndex = [];updateSearchResults();
+var moduleSearchIndex = [{"l":"gxt","url":"index.html"}]

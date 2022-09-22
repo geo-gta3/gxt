@@ -8,6 +8,8 @@ import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.util.function.Function
 
+fun Map<String, String>.toGXT() = GXT.from(this)
+
 @Throws(IOException::class)
 fun <R> readBytes(raf: RandomAccessFile, byteSize: Int, function: Function<ByteBuffer, R>): R {
     val bb = ByteBuffer.allocate(byteSize)

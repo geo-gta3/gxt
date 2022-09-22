@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ge.vakho.gxt.gxt"},{"l":"ge.vakho.gxt.gxt.util"}];updateSearchResults();
+var packageSearchIndex = [{"l":"ge.vakho.gxt","url":"ge/vakho/gxt/package-summary.html"}, {"l":"All packages","url":"index.html"}]
